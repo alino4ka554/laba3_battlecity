@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba3_battlecity", "laba3_battlecity\laba3_battlecity.csproj", "{FF76F075-54E6-414E-B6B0-98A3928465BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{884F909A-8826-4EC9-8D87-0B7ECF87B915}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FF76F075-54E6-414E-B6B0-98A3928465BD} = {FF76F075-54E6-414E-B6B0-98A3928465BD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF76F075-54E6-414E-B6B0-98A3928465BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF76F075-54E6-414E-B6B0-98A3928465BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF76F075-54E6-414E-B6B0-98A3928465BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF76F075-54E6-414E-B6B0-98A3928465BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884F909A-8826-4EC9-8D87-0B7ECF87B915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F909A-8826-4EC9-8D87-0B7ECF87B915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F909A-8826-4EC9-8D87-0B7ECF87B915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F909A-8826-4EC9-8D87-0B7ECF87B915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30792364-1AB8-405C-BFEE-BC934A7E7CE1}
+	EndGlobalSection
+EndGlobal
